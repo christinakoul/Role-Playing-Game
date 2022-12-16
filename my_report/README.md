@@ -57,6 +57,46 @@
 ![image](https://user-images.githubusercontent.com/46855254/201206417-bbecdc92-2b0b-4c01-b1e1-097e5ec7ccf2.png)
 
 # 2nd Deliverable
+Το δεύτερο παραδοτέο, αφορά την συνέχεια του σχεδιασμού της εφαρμογής. Ο σχεδιασμός ακολουθεί τις οδηγίες που έχουν δοθεί γραπτώς στο GitHub και από κάποια tutorials.
+ 
+Αρχικά άλλαξα και επέκτεινα την πίστα, δημιουργώντας μια μεγαλύτερη με χρήση των ίδιων sprites με το πρώτο παραδοτέο. 
+Τοποθέτησα Box-Collider 2D  στα μέρη που επιθυμούσα να μην πηγαίνει η μάγισσα, όπως για παράδειγμα τα όρια του παιχνιδιού, στη γέφυρα κ.α. Επίσης έκανα freeze rotation στον άξονα z στον χαρακτήρα ώστε να μην περιστρέφεται και να κινείται μόνο στους άξονες x και y.
+![image](https://user-images.githubusercontent.com/46855254/208103901-803553cc-66b1-4553-af6c-bee3c56addcf.png)
+ 
+Στη συνέχεια πρόσθεσα διάφορα αντικείμενα - Collectibles (φίλτρα) που θα δίνουν ζωή στον χαρακτήρα στον οποίο έδωσα μέγιστη ζωή 5.  
+https://temok.itch.io/bottles-with-colorful-stuff
+ ![image](https://user-images.githubusercontent.com/46855254/208103964-43e979ba-6cd5-41de-8256-47e56ee7e63f.png)
+![image](https://user-images.githubusercontent.com/46855254/208103985-46ef748c-8e4f-4034-a306-1a9ddf07bd1a.png)
+
+Δημιούργησα prefab καζάνια για damage zones, τους έδωσα components Rigidbody2D, Box-Collider 2D, και ενσωματωσα script ώστε εάν πάει ο χαρακτήρας του παιχνιδιού σ’ αυτά να χάνει μια ζωή. 
+https://kaiowoka.itch.io/cauldron-cooking-pot-on-a-fire
+ ![image](https://user-images.githubusercontent.com/46855254/208104077-a159d29d-a911-4c9d-b81e-1d81df3f9885.png)
+
+Πρόσθεσα ως enemy την γάτα στην οποία έδωσα components Rigidbody2D, Box-Collider 2D, και ενσωματωσα script ώστε εάν πάει ο χαρακτήρας του παιχνιδιού σ’ αυτά να χάνει μια ζωή.
+https://yukicrimson.itch.io/black-cat-sprite
+ ![image](https://user-images.githubusercontent.com/46855254/208104133-71f01b5a-a6a1-4f50-b90f-8cc68e7442e5.png)
+
+Σχετικά με το κομμάτι του animation, δημιούργησα φάκελο Animations στα assets μου όπου και πρόσθεσα τα animation κάθε στοιχείου. 
+Για την μάγισσα διόρθωσα το καρέ στο photoshop, γιατι δεν φαινόταν αρκετά καλά τα πόδια, και έκανα τις εξής κινήσεις: δεξιά, αριστερά, πάνω και κάτω.
+  ![image](https://user-images.githubusercontent.com/46855254/208104213-e6e8b3b5-d85f-430f-bc58-62528db02292.png)
+![image](https://user-images.githubusercontent.com/46855254/208104237-8dedf1eb-a061-4dbf-a80d-ae73e80f8262.png)
+![image](https://user-images.githubusercontent.com/46855254/208104256-91b71186-1077-44c1-a33a-e772538e7689.png)
+![image](https://user-images.githubusercontent.com/46855254/208104277-59d6d1e7-caed-4a46-9fe2-6dcfb90aabc1.png)
+ 
+Ακριβώς τις ίδιες κινήσεις έκανα και για τη γάτα (στη συνέχεια όμως την άφησα στάσιμη).
+![image](https://user-images.githubusercontent.com/46855254/208104331-2550bd77-b284-4162-88e7-90cbe3adb8c2.png)
+
+Επίσης έκανα animation για τα καζάνια, έτσι ώστε να φαίνονται πως βράζουν.
+ 
+Για projectile επέλεξα να εκτοξεύει φωτιές ο enemy-γατα όταν την πλησιάζει ο χαρακτήρας. Ακολουθώντας τις οδηγίες.  
+![image](https://user-images.githubusercontent.com/46855254/208104371-11a219bf-2350-4c54-83a2-060b95506863.png)
+
+ 
+Τέλος, έκανα την κάμερα να ακολουθεί τον παίκτη όπως στις οδηγίες του tutorial camera - cinemachine.
+ 
+Τελικό Αποτέλεσμα:
+Τέλος δίνεται ένα τελικό screenshot του παιχνιδιού όπως είναι τώρα, με τις αλλαγές που έχουν γίνει έως την φάση του πρώτου παραδοτέου. 
+![image](https://user-images.githubusercontent.com/46855254/208104397-81511edf-45c7-4faa-8bfd-69d5a49d9df7.png)
 
 
 # 3rd Deliverable 
