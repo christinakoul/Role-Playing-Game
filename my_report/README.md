@@ -100,9 +100,51 @@ https://yukicrimson.itch.io/black-cat-sprite
 
 
 # 3rd Deliverable 
+ 
+Το τρίτο παραδοτέο, αφορά την συνέχεια του σχεδιασμού του παιχνιδιού. Ο σχεδιασμός ακολουθεί τις οδηγίες που έχουν δοθεί γραπτώς στο GitHub και από κάποια tutorials.
+ 
+1. Αρχικά πρόσθεσα particles στον εχθρό. 
+![explosion](https://user-images.githubusercontent.com/46855254/212324300-e3972fe0-0859-4e44-b417-e4123ece535f.png)
+
+2. Στη συνέχεια πρόσθεσα Health Bar δημιουργώντας UI canvas.  
+![Bar](https://user-images.githubusercontent.com/46855254/212324375-907e540f-a815-416f-9ff5-ee3dabcec065.png)
+![Heart](https://user-images.githubusercontent.com/46855254/212324397-232babb1-d081-40fe-ace9-c46ee7051121.png)
+ 
+3. Σχετικά με το κομμάτι του Head-Up Display για το score, έκανα πάλι UI canvas που εμφανίζεται στο κέντρο της κάτω μεριάς της οθόνης και αυξάνεται καθώς ο πρωταγωνιστή συλλέγει τα potions
+ 
+4. Για Raycast ο πρωταγωνιστής κάνει τηλεμεταφορά  περνώντας μέσα από την πύλη και έτσι πηγαίνει σε κάποιο άλλο σημείο της πίστας.  
+![portal](https://user-images.githubusercontent.com/46855254/212324541-e68c293d-04dc-412a-84b9-43e692687b48.png)
+
+https://free-game-assets.itch.io/doors-and-portals-pixel-art-asset-pack
+ 
+5. Πρόσθεσα τη δικιά μου μουσική σε κάθε πιστα και εφέ για όταν ο παίκτης περνάει από την πύλη. 
+https://mixkit.co/free-sound-effects/  - Crickets and insects in the wild ambience
+https://pixabay.com/sound-effects/search/witch/  -haunted house ambience
+https://pixabay.com/sound-effects/search/portal/ -Portal Phase Jump
+https://pixabay.com/sound-effects/search/witch/?manual_search=1&order=None- Magic Bastianhallo
+ 
+6. Δημιούργησα ένα αρχικό Menu, ώστε ο χρήστης του παιχνιδιού να μπορεί να επιλέξει ανάμεσα σε δύο διαφορετικές πίστες του παιχνιδιού.Έκανα εισαγωγή νέας γραμμματοσειράας ωστε να ταιριάζει με την αισθητική του παιχνιδιού(https://fonts.webtoolhub.com/font-n27676-prolamina-regular.aspx). Επίσης ένωσα μεταξύ τους τις 2 πίστες αλλα και το μενού, όπου όταν ο παίκτης πάει στον βάτραχο να κάνει level up απο την πιστα 1 στην 2, και στη συνέχεια από την πίστα 2 να πηγαίνει πίσω στο μενού. (Δηλαδή ένωσα τα 3 scenes μεταξύ τους).
+![Jte3nk](https://user-images.githubusercontent.com/46855254/212324661-6b4467cf-064b-45c1-9dc7-854f4e7e4d47.gif)
+
+https://elihaun.itch.io/frog-platformer-tileset
+ 
+7. Τέλος, πρόσθεσα έναν NPC χαρακτήρα στον οποίο ο παίκτης πηγαίνει και πατώντας το “x” μπορεί δέχεται πληροφορίες για το παιχνίδι.
+![skeleton 128x128](https://user-images.githubusercontent.com/46855254/212324734-dc14ea8c-f938-4116-af09-7b80c2e768a7.png)
+
+ 
+ 
+Τελικό Αποτέλεσμα:
+![game-menu](https://user-images.githubusercontent.com/46855254/212324823-c71a18bc-644a-4146-a1bf-7c52ce5f138d.PNG)
+(αρχικό μενού)
+
+![game1](https://user-images.githubusercontent.com/46855254/212324890-c4bfbe3d-46bf-4f88-bb78-e6323bf84880.PNG)
+![gameross](https://user-images.githubusercontent.com/46855254/212325274-5b664d6a-065f-47b4-a4e6-802b52432051.PNG)
+
+(level 1)
+
+![game2](https://user-images.githubusercontent.com/46855254/212325031-91a6566e-3063-43cd-8ba4-c567879639f4.PNG)
+![game2b](https://user-images.githubusercontent.com/46855254/212325058-264d8801-b4ef-4d94-a3b5-d3bcf221108e.PNG)
+(level 2)
 
 
-# Conclusions
-
-
-# Sources
+Ευχαριστώ για τον χρόνο σας!
