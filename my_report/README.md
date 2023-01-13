@@ -128,7 +128,7 @@ https://pixabay.com/sound-effects/search/witch/?manual_search=1&order=None- Magi
 
 https://elihaun.itch.io/frog-platformer-tileset
  
-7. Τέλος, πρόσθεσα έναν NPC χαρακτήρα στον οποίο ο παίκτης πηγαίνει και πατώντας το “x” μπορεί δέχεται πληροφορίες για το παιχνίδι.
+7. Τέλος, πρόσθεσα έναν NPC χαρακτήρα στον οποίο ο παίκτης πηγαίνει και πατώντας το “Ε” μπορεί δέχεται πληροφορίες για το παιχνίδι.
 ![skeleton 128x128](https://user-images.githubusercontent.com/46855254/212324734-dc14ea8c-f938-4116-af09-7b80c2e768a7.png)
 
  
